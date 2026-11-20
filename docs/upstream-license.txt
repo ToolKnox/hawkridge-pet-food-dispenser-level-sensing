@@ -1,0 +1,10 @@
+Upstream: https://www.instructables.com/3D-Printable-Pet-Foot-Dispenser-With-Level-Sensing/
+Instructables id: EW2TOYQM9MSUORV
+Title: 3D Printable Pet Foot Dispenser With Level Sensing
+Author: Penguingineer
+Published: 2025-04-23 13:27:47.0
+Licence field (showInstructableModel JSON, saved as docs/upstream-instructable.json):
+  shortName: by
+  fullName: Attribution
+  url: https://creativecommons.org/licenses/by/4.0/
+Scope: the author's own text, photos and attached files on the instructable.

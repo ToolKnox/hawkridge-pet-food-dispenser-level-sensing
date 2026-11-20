@@ -1,0 +1,634 @@
+{
+    "favorites": 13,
+    "featureFlag": true,
+    "keywords": [
+        "Arduino",
+        "ESP32",
+        "RGB LED light strip",
+        "pet food dispenser",
+        "3D printing",
+        "single-axis joystick",
+        "spring potentiometer"
+    ],
+    "commentingEnabled": true,
+    "urlString": "3D-Printable-Pet-Foot-Dispenser-With-Level-Sensing",
+    "downloadUrl": "https://content.instructables.com/FYV/TZA1/M9MSUOSD/FYVTZA1M9MSUOSD.jpg",
+    "publishDate": "2025-04-23 13:27:47.0",
+    "usesAutodeskSoftware": false,
+    "showUrl": "/3D-Printable-Pet-Foot-Dispenser-With-Level-Sensing/",
+    "title": "3D Printable Pet Foot Dispenser With Level Sensing",
+    "type": "Step by Step",
+    "locale": "en_US",
+    "homePageFeatureGiftSent": false,
+    "indexTags": ["internal"],
+    "supplies": "<ol><li data-list=\"ordered\">1 x <a href=\"https://amzn.to/4jjZLMN\" rel=\"nofollow noopener noreferrer\">LED Light strip<\/a><\/li><li data-list=\"ordered\">1 x <a href=\"https://amzn.to/4jqEuB1\" rel=\"nofollow noopener noreferrer\">ESP32 development board<\/a><\/li><li data-list=\"ordered\">1 x <a href=\"https://www.elationsportstechnologies.com/product-page/single-axis-joystick\" rel=\"nofollow noopener noreferrer\">Single-axis joystick<\/a><\/li><li data-list=\"ordered\">1 x <u><a href=\"https://amzn.to/3G1n7I8\" rel=\"nofollow noopener noreferrer\">5VDC Power supply<\/a><\/u><\/li><li data-list=\"ordered\">1 x <a href=\"https://amzn.to/3Ezn1ao\" rel=\"nofollow noopener noreferrer\">Assortment of jumper wires<\/a><\/li><li data-list=\"ordered\">1 x <a href=\"https://amzn.to/42JoanZ\" rel=\"nofollow noopener noreferrer\">Set of black hot glue sticks<\/a><\/li><li data-list=\"ordered\">1 x <a href=\"https://amzn.to/4it8Bqb\" rel=\"nofollow noopener noreferrer\">Hot glue gun<\/a><\/li><li data-list=\"ordered\">1 x <a href=\"https://amzn.to/4lK3DZ9\" rel=\"nofollow noopener noreferrer\">1kg spool of black PLA+ 3D printing filament<\/a> (for most of the dispenser parts)<\/li><li data-list=\"ordered\">1 x <a href=\"https://amzn.to/4io6sMr\" rel=\"nofollow noopener noreferrer\">1kg spool of white PLA+ 3D printing filament<\/a> (for the light diffuser bar)<\/li><li data-list=\"ordered\">(Optional) 1 x <a href=\"https://amzn.to/42JoanZ\" rel=\"nofollow noopener noreferrer\">FDM 3D printer with sufficiently large build area<\/a> (minimum 250 x 250 x 200mm)<\/li><\/ol>",
+    "coverImage": {
+        "image": true,
+        "embedType": "NONE",
+        "name": "FDWBTN8M9MSUOS8.jpg",
+        "modifiedDate": "2025-04-18 09:04:31.0",
+        "width": 1536,
+        "mosaic": false,
+        "downloadUrl": "https://content.instructables.com/FYV/TZA1/M9MSUOSD/FYVTZA1M9MSUOSD.jpg",
+        "imageNotes": [],
+        "id": "FYVTZA1M9MSUOSD",
+        "height": 1280
+    },
+    "maxStepsAllowed": 151,
+    "id": "EW2TOYQM9MSUORV",
+    "editVersion": 565,
+    "views": 1471,
+    "hideFromSearchEngine": false,
+    "numStepsByWordCount": 2,
+    "featuredBy": "randofo",
+    "comments": 0,
+    "author": {
+        "website": {
+            "title": "Website Link",
+            "url": "http://www.elationsportstechnologies.com"
+        },
+        "downloadUrl": "https://content.instructables.com/F5O/ZWOZ/KF9OLY5A/F5OZWOZKF9OLY5A.png",
+        "about": "Hi, I'm Austin Allen, the founder and owner at Elation Sports Technologies. Based out of Los Angeles CA, I specialize in innovate product designs and projects related to sports, cinematography, sensing and control applications. I work on a variety of other project types that suit my interests. Check out my YouTube channel!",
+        "socialHandles": [
+            {
+                "handle": "@penguingineer",
+                "title": "YouTube"
+            },
+            {
+                "handle": "aainthemorning",
+                "title": "Instagram"
+            }
+        ],
+        "id": "MXRCHPPKF9OLY51",
+        "screenName": "Penguingineer",
+        "isAdmin": false,
+        "followersCount": 7,
+        "recent": [
+            {
+                "urlString": "Motorized-Furniture-Dolly-Feat-ESP32-S3-and-Flipsk",
+                "downloadUrl": "https://content.instructables.com/F0R/99PX/M98IGHBS/F0R99PXM98IGHBS.jpg",
+                "title": "Motorized Furniture Dolly Feat. ESP32-S3 and Flipsky ESC Running VESC 6"
+            },
+            {
+                "urlString": "Wireless-DC-Fan-Motor-Control-Using-2-X-ESP32-Deve",
+                "downloadUrl": "https://content.instructables.com/FV1/HJFF/M9CSRRRS/FV1HJFFM9CSRRRS.jpg",
+                "title": "Back to Basics: Wireless DC Fan Motor Control Using 2 X ESP32 Boards"
+            },
+            {
+                "urlString": "ESP32-BaseCam-Bluetooth-Gimbal-Control",
+                "downloadUrl": "https://content.instructables.com/FZV/ISAB/LZN4WZNA/FZVISABLZN4WZNA.png",
+                "title": "ESP32 + BaseCam Bluetooth Gimbal Control"
+            },
+            {
+                "urlString": "Single-Axis-Joystick-Breakout-Board-Tutorial",
+                "downloadUrl": "https://content.instructables.com/FC6/CUSO/LU5J51W0/FC6CUSOLU5J51W0.jpg",
+                "title": "Single Axis Joystick Controller With Arduino"
+            }
+        ]
+    },
+    "sponsoredFlag": false,
+    "steps": [
+        {
+            "stepIndex": 0,
+            "wordCount": 243,
+            "files": [{
+                "image": true,
+                "embedType": "NONE",
+                "name": "signal-2025-04-17-224130.jpeg",
+                "modifiedDate": "2025-04-18 09:04:17.0",
+                "width": 1536,
+                "mosaic": false,
+                "downloadUrl": "https://content.instructables.com/FDW/BTN8/M9MSUOS8/FDWBTN8M9MSUOS8.jpg",
+                "imageNotes": [],
+                "id": "FDWBTN8M9MSUOS8",
+                "height": 2048
+            }],
+            "showUrl": "/3D-Printable-Pet-Foot-Dispenser-With-Level-Sensing/",
+            "id": "SZWN46LM9MSUP0Z",
+            "title": "3D Printable Pet Foot Dispenser With Level Sensing",
+            "body": "<p>In this project, I built a 3D-printed pet food dispenser with a food level sensor and RGB LED light bar to indicate the fill level! As your pet eats the foot in the open tray in the bottom of the dispenser, food in the upper reservoir gradually falls to keep that space filled, so your pet doesn't run out of food to eat. An RGB LED light strip shines behind a 3D printed \"light bar\" to indicate the fill level (green is sufficiently filled, yellow is getting close to empty, and red means you need to refill the food reservoir.)<\/p><p>I used an ESP32 development board programmed using the Arduino IDE, a common strip of RGB LEDs, and a single axis joystick module acting as a spring-loaded potentiometer to detect the and indicate the pet food fill level. Because this project was made using the ESP32 module, wireless communication communication (Bluetooth Low Energy, Wifi, or ESP-NOW) could be added to ping the user about the fill level, enabling remote sensing!<\/p><p>This is a useful project which incorporates several aspects of electromechanical design which carry over to many other types of projects:<\/p><ol><li data-list=\"bullet\">Arduino programming<\/li><li data-list=\"bullet\">3D printing<\/li><li data-list=\"bullet\">Electronics wiring (low voltage)<\/li><li data-list=\"bullet\">Reading from a single-axis joystick<\/li><li data-list=\"bullet\">RGB LED strip lighting control<\/li><\/ol><p>Note: Some of the links in this article are affiliate links. This means that, at zero cost to you, if you click through the link and make a purchase, I will receive a commission.<\/p>",
+            "url": "https://www.instructables.com/3D-Printable-Pet-Foot-Dispenser-With-Level-Sensing/"
+        },
+        {
+            "stepIndex": 1,
+            "wordCount": 154,
+            "files": [
+                {
+                    "image": true,
+                    "embedType": "NONE",
+                    "name": "Cat Feeder Render.jpg",
+                    "modifiedDate": "2025-04-19 00:28:57.0",
+                    "width": 586,
+                    "mosaic": false,
+                    "downloadUrl": "https://content.instructables.com/FH8/3QMJ/M9MSUZ0J/FH83QMJM9MSUZ0J.jpg",
+                    "imageNotes": [],
+                    "id": "FH83QMJM9MSUZ0J",
+                    "height": 545
+                },
+                {
+                    "image": true,
+                    "embedType": "NONE",
+                    "name": "CAD Animation.gif",
+                    "modifiedDate": "2025-04-19 00:52:51.0",
+                    "width": 256,
+                    "mosaic": false,
+                    "downloadUrl": "https://content.instructables.com/FWU/U6F5/M9MSUZF1/FWUU6F5M9MSUZF1.gif",
+                    "imageNotes": [],
+                    "id": "FWUU6F5M9MSUZF1",
+                    "height": 256
+                },
+                {
+                    "image": true,
+                    "embedType": "NONE",
+                    "name": "Colored CAD Assembly.jpg",
+                    "modifiedDate": "2025-04-22 12:37:38.0",
+                    "width": 625,
+                    "mosaic": false,
+                    "downloadUrl": "https://content.instructables.com/FM7/P39P/M9SIMP9X/FM7P39PM9SIMP9X.jpg",
+                    "imageNotes": [],
+                    "id": "FM7P39PM9SIMP9X",
+                    "height": 632
+                },
+                {
+                    "image": true,
+                    "embedType": "NONE",
+                    "name": "Tray.jpg",
+                    "modifiedDate": "2025-04-22 12:37:03.0",
+                    "width": 630,
+                    "mosaic": false,
+                    "downloadUrl": "https://content.instructables.com/FTP/CL50/M9SIMP7F/FTPCL50M9SIMP7F.jpg",
+                    "imageNotes": [],
+                    "id": "FTPCL50M9SIMP7F",
+                    "height": 547
+                },
+                {
+                    "image": true,
+                    "embedType": "NONE",
+                    "name": "Light Bar Diffuser.jpg",
+                    "modifiedDate": "2025-04-22 12:37:01.0",
+                    "width": 473,
+                    "mosaic": false,
+                    "downloadUrl": "https://content.instructables.com/F0S/PYUY/M9SIMP74/F0SPYUYM9SIMP74.jpg",
+                    "imageNotes": [],
+                    "id": "F0SPYUYM9SIMP74",
+                    "height": 630
+                },
+                {
+                    "image": true,
+                    "embedType": "NONE",
+                    "name": "Reservoir Lid.jpg",
+                    "modifiedDate": "2025-04-22 12:37:04.0",
+                    "width": 792,
+                    "mosaic": false,
+                    "downloadUrl": "https://content.instructables.com/FPJ/AIWF/M9SIMP7R/FPJAIWFM9SIMP7R.jpg",
+                    "imageNotes": [],
+                    "id": "FPJAIWFM9SIMP7R",
+                    "height": 552
+                },
+                {
+                    "image": true,
+                    "embedType": "NONE",
+                    "name": "Electronics Lid.jpg",
+                    "modifiedDate": "2025-04-22 12:37:05.0",
+                    "width": 667,
+                    "mosaic": false,
+                    "downloadUrl": "https://content.instructables.com/FWP/MVGM/M9SIMP85/FWPMVGMM9SIMP85.jpg",
+                    "imageNotes": [],
+                    "id": "FWPMVGMM9SIMP85",
+                    "height": 545
+                },
+                {
+                    "image": true,
+                    "embedType": "NONE",
+                    "name": "Level Sensor Sub-Assembly.jpg",
+                    "modifiedDate": "2025-04-22 12:37:05.0",
+                    "width": 763,
+                    "mosaic": false,
+                    "downloadUrl": "https://content.instructables.com/FWN/MVIK/M9SIMP8J/FWNMVIKM9SIMP8J.jpg",
+                    "imageNotes": [],
+                    "id": "FWNMVIKM9SIMP8J",
+                    "height": 515
+                },
+                {
+                    "image": true,
+                    "embedType": "NONE",
+                    "name": "Light Bar Body.jpg",
+                    "modifiedDate": "2025-04-22 12:37:06.0",
+                    "width": 392,
+                    "mosaic": false,
+                    "downloadUrl": "https://content.instructables.com/FX3/21DJ/M9SIMP8K/FX321DJM9SIMP8K.jpg",
+                    "imageNotes": [],
+                    "id": "FX321DJM9SIMP8K",
+                    "height": 622
+                },
+                {
+                    "image": true,
+                    "embedType": "NONE",
+                    "name": "Reservoir.jpg",
+                    "modifiedDate": "2025-04-22 12:37:07.0",
+                    "width": 518,
+                    "mosaic": false,
+                    "downloadUrl": "https://content.instructables.com/F87/U94J/M9SIMP9E/F87U94JM9SIMP9E.jpg",
+                    "imageNotes": [],
+                    "id": "F87U94JM9SIMP9E",
+                    "height": 571
+                },
+                {
+                    "image": false,
+                    "embedHtmlCode": "<iframe src=\"https://content.instructables.com/static/3dviewer/index.html?svf=https://content.instructables.com/F11/OT6N/M9SIMPAZ/forge-derivs/9713abe11/light-bar-diffuser-v2.svf\"><\/iframe>",
+                    "embedCoverImage": {
+                        "image": true,
+                        "embedType": "NONE",
+                        "name": "light-bar-diffuser-v2.svf.png01_thumb_200x200.png",
+                        "modifiedDate": "2025-04-22 13:00:28.0",
+                        "width": 200,
+                        "mosaic": false,
+                        "downloadUrl": "https://content.instructables.com/FMT/4DHD/M9SIMM7N/FMT4DHDM9SIMM7N.png",
+                        "imageNotes": [],
+                        "id": "FMT4DHDM9SIMM7N",
+                        "height": 200
+                    },
+                    "embedType": "RICH",
+                    "name": "light bar diffuser v2.stl",
+                    "modifiedDate": "2025-04-22 12:38:10.0",
+                    "downloadUrl": "https://content.instructables.com/F11/OT6N/M9SIMPAZ/F11OT6NM9SIMPAZ.stl",
+                    "id": "F11OT6NM9SIMPAZ",
+                    "embedResourceUrl": "https://content.instructables.com/ORIG/F11/OT6N/M9SIMPAZ/F11OT6NM9SIMPAZ.stl",
+                    "embedHost": "instructables.com"
+                },
+                {
+                    "image": false,
+                    "embedHtmlCode": "<iframe src=\"https://content.instructables.com/static/3dviewer/index.html?svf=https://content.instructables.com/FZ2/JSPA/M9SIMPBI/forge-derivs/0a9b4c271/auto-feeder-tray-v2.svf\"><\/iframe>",
+                    "embedCoverImage": {
+                        "image": true,
+                        "embedType": "NONE",
+                        "name": "auto-feeder-tray-v2.svf.png01_thumb_200x200.png",
+                        "modifiedDate": "2025-04-22 13:10:34.0",
+                        "width": 200,
+                        "mosaic": false,
+                        "downloadUrl": "https://content.instructables.com/FAK/14DZ/M9SIMPTK/FAK14DZM9SIMPTK.png",
+                        "imageNotes": [],
+                        "id": "FAK14DZM9SIMPTK",
+                        "height": 200
+                    },
+                    "embedType": "RICH",
+                    "name": "auto feeder tray v2.stl",
+                    "modifiedDate": "2025-04-22 12:38:11.0",
+                    "downloadUrl": "https://content.instructables.com/FZ2/JSPA/M9SIMPBI/FZ2JSPAM9SIMPBI.stl",
+                    "id": "FZ2JSPAM9SIMPBI",
+                    "embedResourceUrl": "https://content.instructables.com/ORIG/FZ2/JSPA/M9SIMPBI/FZ2JSPAM9SIMPBI.stl",
+                    "embedHost": "instructables.com"
+                },
+                {
+                    "image": false,
+                    "embedHtmlCode": "<iframe src=\"https://content.instructables.com/static/3dviewer/index.html?svf=https://content.instructables.com/FA5/X5GM/M9SIMPBJ/forge-derivs/bc3a1a791/auto-feeder-food-lid-v2.svf\"><\/iframe>",
+                    "embedCoverImage": {
+                        "image": true,
+                        "embedType": "NONE",
+                        "name": "auto-feeder-food-lid-v2.svf.png01_thumb_200x200.png",
+                        "modifiedDate": "2025-04-22 13:10:35.0",
+                        "width": 200,
+                        "mosaic": false,
+                        "downloadUrl": "https://content.instructables.com/FAC/KO9E/M9SIMNW0/FACKO9EM9SIMNW0.png",
+                        "imageNotes": [],
+                        "id": "FACKO9EM9SIMNW0",
+                        "height": 200
+                    },
+                    "embedType": "RICH",
+                    "name": "auto feeder food lid v2.stl",
+                    "modifiedDate": "2025-04-22 12:38:11.0",
+                    "downloadUrl": "https://content.instructables.com/FA5/X5GM/M9SIMPBJ/FA5X5GMM9SIMPBJ.stl",
+                    "id": "FA5X5GMM9SIMPBJ",
+                    "embedResourceUrl": "https://content.instructables.com/ORIG/FA5/X5GM/M9SIMPBJ/FA5X5GMM9SIMPBJ.stl",
+                    "embedHost": "instructables.com"
+                },
+                {
+                    "image": false,
+                    "embedHtmlCode": "<iframe src=\"https://content.instructables.com/static/3dviewer/index.html?svf=https://content.instructables.com/F5Q/HO5Z/M9SIMPCN/forge-derivs/7a4804051/auto-feeder-electronics-lid-v2.svf\"><\/iframe>",
+                    "embedCoverImage": {
+                        "image": true,
+                        "embedType": "NONE",
+                        "name": "auto-feeder-electronics-lid-v2.svf.png01_thumb_200x200.png",
+                        "modifiedDate": "2025-04-22 13:10:34.0",
+                        "width": 200,
+                        "mosaic": false,
+                        "downloadUrl": "https://content.instructables.com/FDT/ZSHN/M9SIMMKC/FDTZSHNM9SIMMKC.png",
+                        "imageNotes": [],
+                        "id": "FDTZSHNM9SIMMKC",
+                        "height": 200
+                    },
+                    "embedType": "RICH",
+                    "name": "auto feeder electronics lid v2.stl",
+                    "modifiedDate": "2025-04-22 12:38:11.0",
+                    "downloadUrl": "https://content.instructables.com/F5Q/HO5Z/M9SIMPCN/F5QHO5ZM9SIMPCN.stl",
+                    "id": "F5QHO5ZM9SIMPCN",
+                    "embedResourceUrl": "https://content.instructables.com/ORIG/F5Q/HO5Z/M9SIMPCN/F5QHO5ZM9SIMPCN.stl",
+                    "embedHost": "instructables.com"
+                },
+                {
+                    "image": false,
+                    "embedHtmlCode": "<iframe src=\"https://content.instructables.com/static/3dviewer/index.html?svf=https://content.instructables.com/FL6/O7QC/M9SIMPD9/forge-derivs/8198ef581/Level-Sensor-Base.svf\"><\/iframe>",
+                    "embedCoverImage": {
+                        "image": true,
+                        "embedType": "NONE",
+                        "name": "Level-Sensor-Base.svf.png01_thumb_200x200.png",
+                        "modifiedDate": "2025-04-22 13:10:35.0",
+                        "width": 200,
+                        "mosaic": false,
+                        "downloadUrl": "https://content.instructables.com/F22/ALM5/M9SIMNVZ/F22ALM5M9SIMNVZ.png",
+                        "imageNotes": [],
+                        "id": "F22ALM5M9SIMNVZ",
+                        "height": 200
+                    },
+                    "embedType": "RICH",
+                    "name": "Level Sensor Base.stl",
+                    "modifiedDate": "2025-04-22 12:38:11.0",
+                    "downloadUrl": "https://content.instructables.com/FL6/O7QC/M9SIMPD9/FL6O7QCM9SIMPD9.stl",
+                    "id": "FL6O7QCM9SIMPD9",
+                    "embedResourceUrl": "https://content.instructables.com/ORIG/FL6/O7QC/M9SIMPD9/FL6O7QCM9SIMPD9.stl",
+                    "embedHost": "instructables.com"
+                },
+                {
+                    "image": false,
+                    "embedHtmlCode": "<iframe src=\"https://content.instructables.com/static/3dviewer/index.html?svf=https://content.instructables.com/FFP/NNTO/M9SIMPDA/forge-derivs/e725245b1/Level-Sensor-Arm.svf\"><\/iframe>",
+                    "embedCoverImage": {
+                        "image": true,
+                        "embedType": "NONE",
+                        "name": "Level-Sensor-Arm.svf.png01_thumb_200x200.png",
+                        "modifiedDate": "2025-04-22 13:10:35.0",
+                        "width": 200,
+                        "mosaic": false,
+                        "downloadUrl": "https://content.instructables.com/FHJ/OB2Q/M9SIMNVY/FHJOB2QM9SIMNVY.png",
+                        "imageNotes": [],
+                        "id": "FHJOB2QM9SIMNVY",
+                        "height": 200
+                    },
+                    "embedType": "RICH",
+                    "name": "Level Sensor Arm.stl",
+                    "modifiedDate": "2025-04-22 12:38:12.0",
+                    "downloadUrl": "https://content.instructables.com/FFP/NNTO/M9SIMPDA/FFPNNTOM9SIMPDA.stl",
+                    "id": "FFPNNTOM9SIMPDA",
+                    "embedResourceUrl": "https://content.instructables.com/ORIG/FFP/NNTO/M9SIMPDA/FFPNNTOM9SIMPDA.stl",
+                    "embedHost": "instructables.com"
+                },
+                {
+                    "image": false,
+                    "embedHtmlCode": "<iframe src=\"https://content.instructables.com/static/3dviewer/index.html?svf=https://content.instructables.com/F0M/LLJL/M9SIMPEK/forge-derivs/c431f2331/light-bar-body-v2.svf\"><\/iframe>",
+                    "embedCoverImage": {
+                        "image": true,
+                        "embedType": "NONE",
+                        "name": "light-bar-body-v2.svf.png01_thumb_200x200.png",
+                        "modifiedDate": "2025-04-22 13:00:28.0",
+                        "width": 200,
+                        "mosaic": false,
+                        "downloadUrl": "https://content.instructables.com/FLB/90I5/M9SIMM7M/FLB90I5M9SIMM7M.png",
+                        "imageNotes": [],
+                        "id": "FLB90I5M9SIMM7M",
+                        "height": 200
+                    },
+                    "embedType": "RICH",
+                    "name": "light bar body v2.stl",
+                    "modifiedDate": "2025-04-22 12:38:12.0",
+                    "downloadUrl": "https://content.instructables.com/F0M/LLJL/M9SIMPEK/F0MLLJLM9SIMPEK.stl",
+                    "id": "F0MLLJLM9SIMPEK",
+                    "embedResourceUrl": "https://content.instructables.com/ORIG/F0M/LLJL/M9SIMPEK/F0MLLJLM9SIMPEK.stl",
+                    "embedHost": "instructables.com"
+                },
+                {
+                    "image": false,
+                    "embedHtmlCode": "<iframe src=\"https://content.instructables.com/static/3dviewer/index.html?svf=https://content.instructables.com/FE9/43FS/M9SIMPF9/forge-derivs/100d40001/auto-feeder-main-body-v2.svf\"><\/iframe>",
+                    "embedCoverImage": {
+                        "image": true,
+                        "embedType": "NONE",
+                        "name": "auto-feeder-main-body-v2.svf.png01_thumb_200x200.png",
+                        "modifiedDate": "2025-04-22 13:10:35.0",
+                        "width": 200,
+                        "mosaic": false,
+                        "downloadUrl": "https://content.instructables.com/FZA/D79U/M9SIMVO7/FZAD79UM9SIMVO7.png",
+                        "imageNotes": [],
+                        "id": "FZAD79UM9SIMVO7",
+                        "height": 200
+                    },
+                    "embedType": "RICH",
+                    "name": "auto feeder main body v2.stl",
+                    "modifiedDate": "2025-04-22 12:38:12.0",
+                    "downloadUrl": "https://content.instructables.com/FE9/43FS/M9SIMPF9/FE943FSM9SIMPF9.stl",
+                    "id": "FE943FSM9SIMPF9",
+                    "embedResourceUrl": "https://content.instructables.com/ORIG/FE9/43FS/M9SIMPF9/FE943FSM9SIMPF9.stl",
+                    "embedHost": "instructables.com"
+                },
+                {
+                    "image": false,
+                    "embedHtmlCode": "<iframe src=\"https://content.instructables.com/static/3dviewer/index.html?svf=https://content.instructables.com/FVX/5F4Y/M9SIMPFZ/forge-derivs/a1e2316f1/Pet-Food-Dispenser-Assembly.svf\"><\/iframe>",
+                    "embedCoverImage": {
+                        "image": true,
+                        "embedType": "NONE",
+                        "name": "Pet-Food-Dispenser-Assembly.svf.png01_thumb_200x200.png",
+                        "modifiedDate": "2025-04-22 13:00:34.0",
+                        "width": 200,
+                        "mosaic": false,
+                        "downloadUrl": "https://content.instructables.com/FXI/F9GG/M9SILXNQ/FXIF9GGM9SILXNQ.png",
+                        "imageNotes": [],
+                        "id": "FXIF9GGM9SILXNQ",
+                        "height": 200
+                    },
+                    "embedType": "RICH",
+                    "name": "Pet Food Dispenser Assembly.step",
+                    "modifiedDate": "2025-04-22 12:38:20.0",
+                    "downloadUrl": "https://content.instructables.com/FVX/5F4Y/M9SIMPFZ/FVX5F4YM9SIMPFZ.step",
+                    "id": "FVX5F4YM9SIMPFZ",
+                    "embedResourceUrl": "https://content.instructables.com/ORIG/FVX/5F4Y/M9SIMPFZ/FVX5F4YM9SIMPFZ.step",
+                    "embedHost": "instructables.com"
+                }
+            ],
+            "showUrl": "/3D-Printable-Pet-Foot-Dispenser-With-Level-Sensing/step1/Hardware-Design/",
+            "id": "S58B552M9MSUP12",
+            "title": "Hardware Design",
+            "body": "<p>The 3D-printable files (STL format) and the full assembly file (STEP format) are provided below. The RGB LED diffuser bar is printed from <a href=\"https://amzn.to/4io6sMr\" rel=\"nofollow noopener noreferrer\">white PLA+ filament<\/a>, with 2 x walls and no infill. The remainder of the parts can be printed using <a href=\"https://amzn.to/4lK3DZ9\" rel=\"nofollow noopener noreferrer\">black PLA+ filament<\/a>. If you'd like to print the parts yourself, you will need access to an FDM 3D printer with a sufficiently large build area (minimum 250 x 250 x 200mm), for example, this <a href=\"https://amzn.to/42JoanZ\" rel=\"nofollow noopener noreferrer\">open-source printer available on Amazon<\/a>. To print the parts, download the STL files and set up the print job using any free slicer software such as <a href=\"https://ultimaker.com/software/ultimaker-cura/\" rel=\"nofollow noopener noreferrer\">Cura<\/a>.<\/p><p>To assemble the enclosure, place the reservoir on top of the tray. The parts are meant to easily separate for adding food and maintaining the feeder, but if you'd like to hold any plastic parts held together more firmly, <a href=\"https://amzn.to/42JoanZ\" rel=\"nofollow noopener noreferrer\">black hot glue<\/a> with a <a href=\"https://amzn.to/4it8Bqb\" rel=\"nofollow noopener noreferrer\">hot glue gun<\/a> can be added.<\/p>",
+            "url": "https://www.instructables.com/3D-Printable-Pet-Foot-Dispenser-With-Level-Sensing/step1/Hardware-Design/"
+        },
+        {
+            "stepIndex": 2,
+            "wordCount": 146,
+            "files": [
+                {
+                    "image": true,
+                    "embedType": "NONE",
+                    "name": "signal-2025-04-17-224246.jpeg",
+                    "modifiedDate": "2025-04-18 09:10:36.0",
+                    "width": 1672,
+                    "mosaic": false,
+                    "downloadUrl": "https://content.instructables.com/FW2/8AQR/M9MSUOWN/FW28AQRM9MSUOWN.jpg",
+                    "imageNotes": [],
+                    "id": "FW28AQRM9MSUOWN",
+                    "height": 905
+                },
+                {
+                    "image": true,
+                    "embedType": "NONE",
+                    "name": "circuit_image(5).png",
+                    "modifiedDate": "2025-04-18 09:10:29.0",
+                    "width": 2698,
+                    "mosaic": false,
+                    "downloadUrl": "https://content.instructables.com/FFP/NTBS/M9MSUOWA/FFPNTBSM9MSUOWA.png",
+                    "imageNotes": [],
+                    "id": "FFPNTBSM9MSUOWA",
+                    "height": 4023
+                },
+                {
+                    "image": true,
+                    "embedType": "NONE",
+                    "name": "Joystick in Level Arm Assembly.jpg",
+                    "modifiedDate": "2025-04-22 12:53:54.0",
+                    "width": 652,
+                    "mosaic": false,
+                    "downloadUrl": "https://content.instructables.com/FTA/4N93/M9SIMSFT/FTA4N93M9SIMSFT.jpg",
+                    "imageNotes": [],
+                    "id": "FTA4N93M9SIMSFT",
+                    "height": 523
+                },
+                {
+                    "image": true,
+                    "embedType": "NONE",
+                    "name": "Screenshot 2025-04-18 091451.jpg",
+                    "modifiedDate": "2025-04-18 09:15:01.0",
+                    "width": 641,
+                    "mosaic": false,
+                    "downloadUrl": "https://content.instructables.com/FCJ/O5BM/M9MSUOZP/FCJO5BMM9MSUOZP.jpg",
+                    "imageNotes": [],
+                    "id": "FCJO5BMM9MSUOZP",
+                    "height": 567
+                },
+                {
+                    "image": true,
+                    "embedType": "NONE",
+                    "name": "3 x Styles Enhanced.JPG",
+                    "modifiedDate": "2025-04-19 11:22:09.0",
+                    "width": 3072,
+                    "mosaic": false,
+                    "downloadUrl": "https://content.instructables.com/FJE/M3EY/M9O8AKM8/FJEM3EYM9O8AKM8.jpg",
+                    "imageNotes": [],
+                    "id": "FJEM3EYM9O8AKM8",
+                    "height": 4080
+                }
+            ],
+            "showUrl": "/3D-Printable-Pet-Foot-Dispenser-With-Level-Sensing/step2/Electronics/",
+            "id": "S3K2QE1M9MSUP13",
+            "title": "Electronics",
+            "body": "<p>Electrically connect all the components according to the above wiring diagram using <a href=\"https://amzn.to/3Ezn1ao\" rel=\"nofollow noopener noreferrer\">jumper wires<\/a>:<\/p><ol><li data-list=\"bullet\"><a href=\"https://amzn.to/4jqEuB1\" rel=\"nofollow noopener noreferrer\">ESP32 development board<\/a><\/li><li data-list=\"bullet\"><a href=\"https://amzn.to/4jjZLMN\" rel=\"nofollow noopener noreferrer\">LED Light strip<\/a><\/li><li data-list=\"bullet\"><a href=\"https://www.elationsportstechnologies.com/product-page/single-axis-joystick\" rel=\"nofollow noopener noreferrer\">Single-axis joystick<\/a> (center-return style, green color)<\/li><li data-list=\"bullet\"><u><a href=\"https://amzn.to/3G1n7I8\" rel=\"nofollow noopener noreferrer\">5VDC Power supply<\/a><\/u><\/li><\/ol><p>For the 5V power supply, use the green screw terminal attachment, and be mindful of the polarity of that connector (power is +, and ground is -) when providing power to the 5V and GND pins on the ESP32 board. Mount the single axis joystick in the level sensing arm slot so that the joystick arm pivots with the sensing arm.<\/p><p>If you would like to change the behavior of the single-axis joystick (spring loaded potentiometer) so that it either returns to its bottom position (black color option), or so that it doesn't have spring-loaded return behavior (orange color option), <a href=\"https://www.elationsportstechnologies.com/product-page/single-axis-joystick\" rel=\"nofollow noopener noreferrer\">variants of the joystick<\/a> are available for purchase. The different variants are useful for different use cases!<\/p>",
+            "url": "https://www.instructables.com/3D-Printable-Pet-Foot-Dispenser-With-Level-Sensing/step2/Electronics/"
+        },
+        {
+            "stepIndex": 3,
+            "wordCount": 214,
+            "files": [
+                {
+                    "image": false,
+                    "embedType": "NONE",
+                    "name": "Pet_Feeder_Level_Sensor.ino",
+                    "modifiedDate": "2025-04-22 12:57:35.0",
+                    "downloadUrl": "https://content.instructables.com/FNQ/K6WG/M9SIMSJ4/FNQK6WGM9SIMSJ4.ino",
+                    "id": "FNQK6WGM9SIMSJ4"
+                },
+                {
+                    "image": true,
+                    "embedType": "NONE",
+                    "name": "Code.jpg",
+                    "modifiedDate": "2025-04-22 12:59:55.0",
+                    "width": 861,
+                    "mosaic": false,
+                    "downloadUrl": "https://content.instructables.com/FRV/A2B7/M9SIMSK6/FRVA2B7M9SIMSK6.jpg",
+                    "imageNotes": [],
+                    "id": "FRVA2B7M9SIMSK6",
+                    "height": 810
+                }
+            ],
+            "showUrl": "/3D-Printable-Pet-Foot-Dispenser-With-Level-Sensing/step3/Code/",
+            "id": "SQU02BPM9MSUP18",
+            "title": "Code",
+            "body": "<p>ESP32 microcontrollers provide extra functionality compared to older Arduino boards, including wireless connectivity, larger memory and higher clock speed. They can be used with the <a href=\"https://www.arduino.cc/en/software/\" rel=\"nofollow noopener noreferrer\">Arduino IDE<\/a> (Arduino framework) easily. In order to enable ESP32 boards to show up as selectable options in the Arduino IDE software, you can follow the setup procedure in this video made by YouTuber Robonyx:<\/p><ol><li data-list=\"bullet\"><a href=\"https://youtu.be/RiYnucfy_rs?si=1MHr4DB6tXuxfL5z&amp;t=124\" rel=\"nofollow noopener noreferrer\">https://youtu.be/RiYnucfy_rs?si=1MHr4DB6tXuxfL5z&amp;t=124<\/a><\/li><\/ol><p>The code uses the Adafruit NeoPixel library for controlling the RGB LEDs - that library can be downloaded using the Arduino IDE. To load the code (Pet_Feeder_Level_Sensor.ino) onto the ESP32 development board, connect the board to your computer using a micro-USB cable, and open the code file in the Arduino IDE. For the board, select \"DOIT ESP32 DEVKIT V1\", and then click Upload to load the code. If the code successfully uploaded, the RGB LED light strip will now react to the joystick position!<\/p><p>If the colors are incorrect (e.g. red, green or yellow when they shouldn't be), remove the joystick + level sensing arm assembly from the dispenser, and turn the power to the ESP32 off and then on again - this will enable the joystick to \"re-zero\" itself so that the center position is calibrated correctly. You can then re-install the joystick and level arm assembly back into the dispenser reservoir.<\/p>",
+            "url": "https://www.instructables.com/3D-Printable-Pet-Foot-Dispenser-With-Level-Sensing/step3/Code/"
+        },
+        {
+            "stepIndex": 4,
+            "wordCount": 26,
+            "files": [{
+                "image": true,
+                "embedHtmlCode": "<iframe allowfullscreen=\"\" frameborder=\"0\" height=\"576\" src=\"https://www.youtube.com/embed/nUyvoeUkb3w?feature=oembed\" title=\"3D Printable Pet Food Dispenser with ESP32 Level Sensing\" width=\"1024\"><\/iframe>",
+                "embedType": "VIDEO",
+                "name": "3D Printable Pet Food Dispenser with ESP32 Level Sensing",
+                "modifiedDate": "2025-04-22 15:07:06.0",
+                "mosaic": false,
+                "downloadUrl": "https://content.instructables.com/F74/0P83/M9SIN0AS/F740P83M9SIN0AS.jpg",
+                "imageNotes": [],
+                "id": "F740P83M9SIN0AS",
+                "embedResourceUrl": "https://youtube.com/shorts/nUyvoeUkb3w?feature=share",
+                "embedHost": "YouTube",
+                "embedAuthor": "Austin Allen"
+            }],
+            "showUrl": "/3D-Printable-Pet-Foot-Dispenser-With-Level-Sensing/step4/Demonstration/",
+            "id": "SGDQMSMM9MSUP19",
+            "title": "Demonstration",
+            "body": "<p>Here is a demo video showing how the light bar reacts to the level sensor arm, indicating the level of pet food in the reservoir!<\/p><ol><li data-list=\"bullet\"><a href=\"https://youtube.com/shorts/nUyvoeUkb3w?feature=share\" rel=\"nofollow noopener noreferrer\">https://youtube.com/shorts/nUyvoeUkb3w?feature=share<\/a><\/li><\/ol>",
+            "url": "https://www.instructables.com/3D-Printable-Pet-Foot-Dispenser-With-Level-Sensing/step4/Demonstration/"
+        },
+        {
+            "stepIndex": 5,
+            "wordCount": 193,
+            "files": [],
+            "showUrl": "/3D-Printable-Pet-Foot-Dispenser-With-Level-Sensing/step5/Conclusion-Next-Steps/",
+            "id": "SPG9U6XM9MSUP1A",
+            "title": "Conclusion + Next Steps",
+            "body": "<p>This project successfully demonstrates:<\/p><ol><li data-list=\"bullet\">Reading from a <u><a href=\"https://www.elationsportstechnologies.com/product-page/single-axis-joystick\" rel=\"nofollow noopener noreferrer\">single-axis joystick<\/a><\/u> (spring-loaded potentiometer)<\/li><li data-list=\"bullet\">Controlling an RGB LED light strip using the Adafruit Neopixel Library<\/li><li data-list=\"bullet\">3D-printing and assembling a custom pet food dispenser<\/li><\/ol><p>To expand on this project, you can utilize the wireless capabilities of the ESP32 microcontroller to enable Bluetooth Low Energy, Wifi, or ESP-NOW communication to transmit the reservoir fill level. The center return single-axis joystick (spring-loaded potentiometer) can also be replaced with one of its variants (bottom return, or no return) to change the behavior of sensing in the assembly. You can also modify the 3D models to adjust the dimensions of the pet feeder if you'd like to change its size or shape.<\/p><p>I hope you enjoyed this project!<\/p><p>Check out my other <u><a href=\"https://www.instructables.com/member/Penguingineer/instructables/\" rel=\"noopener noreferrer\">Instructables articles<\/a><\/u>:<\/p><ol><li data-list=\"bullet\"><u><a href=\"https://www.instructables.com/ESP32-BaseCam-Bluetooth-Gimbal-Control/\" rel=\"noopener noreferrer\">ESP32 + BaseCam Bluetooth Gimbal Control<\/a><\/u><\/li><li data-list=\"bullet\"><u><a href=\"https://www.instructables.com/Single-Axis-Joystick-Breakout-Board-Tutorial/\" rel=\"noopener noreferrer\">Single-Axis Joystick Controller Module Using Arduino<\/a><\/u><\/li><li data-list=\"bullet\"><u><a href=\"https://www.instructables.com/Accuracy-Sensing-Smart-Sports-Rebounder-With-ESP32/\" rel=\"noopener noreferrer\">Accuracy-Sensing Smart Sports Rebounder With ESP32<\/a><\/u><\/li><li data-list=\"bullet\"><u><a href=\"https://www.instructables.com/EMT-Conduit-Mounted-Weather-Station-Wind-Sensors/\" rel=\"noopener noreferrer\">EMT Conduit-Mounted Weather Station Wind Sensors<\/a><\/u><\/li><li data-list=\"bullet\"><u><a href=\"https://www.instructables.com/Telescoping-EMT-Conduit-Pole-Extension-Sensing-Met/\" rel=\"noopener noreferrer\">Telescoping EMT Conduit Pole Extension Sensing Methods + Photoresistor Implementation<\/a><\/u><\/li><li data-list=\"bullet\"><u><a href=\"https://www.instructables.com/Force-Sensing-Telescoping-EMT-Conduit-Pole/\" rel=\"noopener noreferrer\">Force-Sensing Telescoping EMT Conduit Pole<\/a><\/u><\/li><li data-list=\"bullet\"><u><a href=\"https://www.instructables.com/Jumbo-Sized-Telescoping-Light-Painter-Made-From-EM/\" rel=\"noopener noreferrer\">Jumbo-Sized Telescoping Light Painter Made from EMT (Electrical) Conduit<\/a><\/u><\/li><li data-list=\"bullet\"><u><a href=\"https://www.instructables.com/HomemadeDIY-Telescoping-Pole-From-EMT-Electrical-C/\" rel=\"noopener noreferrer\">Homemade/DIY Telescoping Pole From EMT (Electrical) Conduit<\/a><\/u><\/li><\/ol><p><br><\/p><p>Thanks for reading!<\/p><p>Austin Allen<\/p><p>Founder and Owner<\/p><p>Elation Sports Technologies LLC<\/p>",
+            "url": "https://www.instructables.com/3D-Printable-Pet-Foot-Dispenser-With-Level-Sensing/step5/Conclusion-Next-Steps/"
+        }
+    ],
+    "classifications": [{
+        "channels": [{
+            "name": "arduino",
+            "title": "Arduino",
+            "type": "channel"
+        }],
+        "name": "circuits",
+        "title": "Circuits",
+        "type": "category"
+    }],
+    "license": {
+        "fullName": "Attribution",
+        "shortName": "by",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "editUrl": "/editInstructable/edit/EW2TOYQM9MSUORV",
+    "modifiedDate": "2025-04-23 13:27:47.0",
+    "fullAccessFlag": false,
+    "homePageFeatureFlag": false,
+    "files": [
+        {
+            "image": true,
+            "embedType": "NONE",
+            "name": "Screenshot 2025-04-18 091412.jpg",
+            "modifiedDate": "2025-04-18 09:14:28.0",
+            "width": 641,
+            "mosaic": false,
+            "downloadUrl": "https://content.instructables.com/FMU/MKO3/M9MSUOYY/FMUMKO3M9MSUOYY.jpg",
+            "imageNotes": [],
+            "id": "FMUMKO3M9MSUOYY",
+            "height": 856
+        },
+        {
+            "image": true,
+            "embedType": "NONE",
+            "name": "signal-2025-04-17-224138.jpeg",
+            "modifiedDate": "2025-04-18 09:10:35.0",
+            "width": 1536,
+            "mosaic": false,
+            "downloadUrl": "https://content.instructables.com/F70/BX15/M9MSUOWG/F70BX15M9MSUOWG.jpg",
+            "imageNotes": [],
+            "id": "F70BX15M9MSUOWG",
+            "height": 2048
+        }
+    ],
+    "suppliesFiles": [],
+    "status": "PUBLISHED",
+    "featuredDate": "2025-04-23 13:27:48.0"
+}
